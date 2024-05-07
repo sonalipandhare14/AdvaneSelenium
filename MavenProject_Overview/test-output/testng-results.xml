@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="0" failed="0" skipped="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Before suite]]>
+    </line>
+    <line>
+      <![CDATA[configuring reports]]>
+    </line>
+    <line>
+      <![CDATA[Before Test]]>
+    </line>
+    <line>
+      <![CDATA[Before Class]]>
+    </line>
+    <line>
+      <![CDATA[Launch browser, maximize and load Url]]>
+    </line>
+    <line>
+      <![CDATA[After Test]]>
+    </line>
+    <line>
+      <![CDATA[After Suite]]>
+    </line>
+    <line>
+      <![CDATA[flush the report]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-05-05T00:20:05 IST" name="Default suite" finished-at="2024-05-05T00:20:09 IST" duration-ms="4124">
+    <groups>
+    </groups>
+    <test started-at="2024-05-05T00:20:05 IST" name="Default test" finished-at="2024-05-05T00:20:09 IST" duration-ms="4124">
+      <class name="com.basicTestScript.AddToCart_Test">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.basicTestScript.AddToCart_Test@ffaa6af]" started-at="2024-05-05T00:20:05 IST" name="beforeSuite" finished-at="2024-05-05T00:20:05 IST" duration-ms="474" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Before suite]]>
+            </line>
+            <line>
+              <![CDATA[configuring reports]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.basicTestScript.AddToCart_Test@ffaa6af]" started-at="2024-05-05T00:20:05 IST" name="beforeTest" finished-at="2024-05-05T00:20:05 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Before Test]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeClass(java.lang.String)[pri:0, instance:com.basicTestScript.AddToCart_Test@ffaa6af]" started-at="2024-05-05T00:20:05 IST" name="beforeClass" finished-at="2024-05-05T00:20:09 IST" duration-ms="3961" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "java.io.InputStream.markSupported()" because "stream" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "java.io.InputStream.markSupported()" because "stream" is null
+at org.apache.poi.poifs.filesystem.FileMagic.prepareToCheckMagic(FileMagic.java:222)
+at org.apache.poi.ss.usermodel.WorkbookFactory.create(WorkbookFactory.java:214)
+at org.apache.poi.ss.usermodel.WorkbookFactory.create(WorkbookFactory.java:185)
+at com.genericClasses.ReadingDataClass.fetchDataFromExcel(ReadingDataClass.java:47)
+at com.genericClasses.BaseClass.beforeClass(BaseClass.java:79)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+            <line>
+              <![CDATA[Before Class]]>
+            </line>
+            <line>
+              <![CDATA[Launch browser, maximize and load Url]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:com.basicTestScript.AddToCart_Test@ffaa6af]" started-at="2024-05-05T00:20:09 IST" name="beforemethod" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1714848609708" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="addingSmartPhoneToCart()[pri:0, instance:com.basicTestScript.AddToCart_Test@ffaa6af]" started-at="2024-05-05T00:20:09 IST" name="addingSmartPhoneToCart" finished-at="2024-05-05T00:20:09 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "java.io.InputStream.markSupported()" because "stream" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "java.io.InputStream.markSupported()" because "stream" is null
+at org.apache.poi.poifs.filesystem.FileMagic.prepareToCheckMagic(FileMagic.java:222)
+at org.apache.poi.ss.usermodel.WorkbookFactory.create(WorkbookFactory.java:214)
+at org.apache.poi.ss.usermodel.WorkbookFactory.create(WorkbookFactory.java:185)
+at com.genericClasses.ReadingDataClass.fetchDataFromExcel(ReadingDataClass.java:47)
+at com.genericClasses.BaseClass.beforeClass(BaseClass.java:79)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addingSmartPhoneToCart -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:com.basicTestScript.AddToCart_Test@ffaa6af]" started-at="2024-05-05T00:20:09 IST" name="aftermethod" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1714848609732" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.basicTestScript.AddToCart_Test@ffaa6af]" started-at="2024-05-05T00:20:09 IST" name="afterClass" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1714848609736" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.basicTestScript.AddToCart_Test@ffaa6af]" started-at="2024-05-05T00:20:09 IST" name="afterTest" finished-at="2024-05-05T00:20:09 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[After Test]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:com.basicTestScript.AddToCart_Test@ffaa6af]" started-at="2024-05-05T00:20:09 IST" name="afterSuite" finished-at="2024-05-05T00:20:10 IST" duration-ms="534" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[After Suite]]>
+            </line>
+            <line>
+              <![CDATA[flush the report]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.basicTestScript.AddToCart_Test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
